@@ -1,0 +1,62 @@
+[
+    {
+        "nombre": "Roco",
+        "apellido": "Rodriguez",
+        "img": "./img/personas/per0.png",
+        "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    {
+        "nombre": "Juan",
+        "apellido": "Sanchez",
+        "img": "./img/personas/per1.png",
+        "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    {
+        "nombre": "Patricia",
+        "apellido": "Papita Suelta",
+        "img": "./img/personas/per2.png",
+        "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    {
+        "nombre": "Hortencia",
+        "apellido": "Saenz",
+        "img": "./img/personas/per3.png",
+        "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    {
+        "nombre": "Martina",
+        "apellido": "Peltrovianca",
+        "img": "./img/personas/per4.png",
+        "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    {
+        "nombre": "Gustavo",
+        "apellido": "Agena Gutierrez",
+        "img": "./img/personas/per5.png",
+        "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    {
+        "nombre": "Patricio",
+        "apellido": "Murciano",
+        "img": "./img/personas/per6.png",
+        "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    {
+        "nombre": "Pablo",
+        "apellido": "Patmarrat",
+        "img": "./img/personas/per7.png",
+        "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    {
+        "nombre": "Martha",
+        "apellido": "Lopez",
+        "img": "./img/personas/per8.png",
+        "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    {
+        "nombre": "Pepito",
+        "apellido": "Miruela",
+        "img": "./img/personas/per9.png",
+        "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    }
+]

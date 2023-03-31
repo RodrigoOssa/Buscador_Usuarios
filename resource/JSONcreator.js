@@ -43,7 +43,7 @@ const recorrerLista = (() => {
 
 console.log("Guardando JSON..")
 
-fs.writeFile('./public/db/personas.json', JSON.stringify(listaPersonas), 'utf8', (err) => {
+fs.writeFile('./src/db/personas.json', JSON.stringify(listaPersonas), 'utf8', (err) => {
     if (err) throw err;
     console.log("Archivo guardado con éxito!")
 })
