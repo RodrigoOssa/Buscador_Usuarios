@@ -1,11 +1,17 @@
 import React from "react";
 import "../App.css";
 
-const Individuo = () => {
+const Individuo = (props) => {
 
     return (
         <div className="Individuo-Container">
-            <img src="/img/personas/per0.png"></img>
+            <img src={props.img}></img>
+            <div className="Nombre-Apellido">
+                {`${props.name} ${props.surname}`}
+            </div>
+            <div className="Individuo-Descripcion">
+                {props.descripcion}
+            </div>
         </div>
     )
 }

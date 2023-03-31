@@ -3,8 +3,8 @@ console.log("Creando lista de personas...")
 const argumentos = process.argv[2];
 
 let listaPersonas = [];
-const nombres = ["Juan", "Pepito", "Emanuel", "Josefina", "Laura", "Ana", "Hortencia", "Roco", "Pablo", "María", "Patricia", "Patricio", "Julieta", "Romeo", "Eugenia", "Eugenio", "Flor", "Gustavo", "Martina", "Martha"];
-const apellidos = ["Venegas", "Rodriguez", "Saenz", "Peltrovianca", "Desconfianza", "Miruela", "Agena Gutierrez", "Guemes", "Patmarrat", "Sanchez", "Papita Suelta", "Matracio", "Murciano", "Pelado", "Lopez"]
+const nombres = ["Juan", "Pepito", "Emanuel", "Josefina", "Laura", "Ana", "Hortencia", "Roco", "Juan", "Pablo", "María", "Patricia", "Juan", "Patricio", "Julieta", "Romeo", "Eugenia", "Eugenio", "Flor", "Gustavo", "Martina", "Juan", "Martha", "Ruben", "Dario", "Daniela", "Lucas", "Florencia", "Gaston", "Javier", "Milena", "Sandra", "Franco", "Francisco", "Edgardo"];
+const apellidos = ["Venegas", "Guemes", "Rodriguez", "Saenz", "Peltrovianca", "Desconfianza", "Miruela", "Guemes", "Agena Gutierrez", "Guemes", "Patmarrat", "Rodriguez", "Sanchez", "Papita Suelta", "Guemes", "Matracio", "Murciano", "Pelado", "Rodriguez", "Lopez", "Papita Suelta", "Guemes", "Matracio", "Murciano", "Pelado", "Rodriguez", "Lopez", "Guemes", "Rodriguez", "Saenz", "Peltrovianca", "Desconfianza", "Miruela", "Guemes",]
 
 const shuffle = (array) => {
     array.sort(() => Math.random() - 0.5);

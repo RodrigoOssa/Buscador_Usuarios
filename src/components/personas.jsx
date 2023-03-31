@@ -6,7 +6,14 @@ const Personas = ({ personas }) => {
 
     return (
         <div className="Personas-Container">
-            <Individuo></Individuo>
+            {
+                personas.map(item => {
+
+                    return (
+                        <Individuo img={item.img} name={item.nombre} surname={item.apellido} descripcion={item.descripcion}></Individuo>
+                    )
+                })
+            }
         </div>
     )
 }
