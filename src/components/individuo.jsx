@@ -5,7 +5,7 @@ const Individuo = (props) => {
 
     return (
         <div className="Individuo-Container">
-            <img src={props.img}></img>
+            <img src={props.img} alt={props.img}></img>
             <div className="Nombre-Apellido">
                 {`${props.name} ${props.surname}`}
             </div>

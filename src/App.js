@@ -13,7 +13,7 @@ function App() {
   const corroborar = (original, comparar) => {
     const long = comparar.length;
     for (let i = 0; i < long; i++) {
-      if (original.toLowerCase().charAt(i) != comparar.toLowerCase().charAt(i)) {
+      if (original.toLowerCase().charAt(i) !== comparar.toLowerCase().charAt(i)) {
         console.log("no coinciden", original + " " + comparar)
         return false
       }
@@ -22,9 +22,9 @@ function App() {
   }
 
   const buscarPersona = (termino, tipo = "nombre") => {
-    if (termino != "") {
+    if (termino !== "") {
       setResultadoBusqueda(
-        tipo == "nombre" ?
+        tipo === "nombre" ?
           personas.filter((elemento) =>
             elemento.nombre.toLowerCase().includes(termino.toLowerCase()) &&
             corroborar(elemento.nombre, termino)
